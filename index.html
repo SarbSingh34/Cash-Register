@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <link href = "style.css" rel = "stylesheet">
+
+</head>
+<body>
+
+    <!-- This  cash register is used to help owner to return proper note     -->
+  <div class = "main-box" style = "text-align: center;">
+
+                <h2> Cash Register </h2>
+                <p> Used for  Showing value regarding the notes and Amount </p>
+
+            <div class = "main-one" style = "margin: auto;">  
+
+                    <label for = "bill-amount"> Bill Amount:  </label>
+                    <input type = "text" id = "bill-amount">
+
+                    <label for = "cash-given"> Cash Given:  </label>
+                    <input type = "text" id = "cash-given">
+
+                     <div class = "btn-1" style=  "text-align: center;">
+                            <button type = "submit"  id = "check-btn" style = "width: 20%;"> Check </button>
+                            <p id = "error-message"></p>
+                     </div>
+
+                     <br>
+                     <br>
+                     <br>
+                     <table style = "background-color: blueviolet;">
+                           
+                        <tr style = "background-color: antiquewhite;"> 
+                             <th> No.of notes </th>
+                              <td class  = "data-insert">  </td>
+                              <td class  = "data-insert">  </td>
+                              <td class  = "data-insert">  </td>
+                              <td class  = "data-insert">  </td>
+                              <td class  = "data-insert">  </td>
+                              <td class  = "data-insert">  </td>
+                              <td class  = "data-insert">  </td>
+                        </tr>
+
+                        <tr style = "background-color: antiquewhite;"> 
+                                <th> Note </th>
+                                    <td> 2000 </td>
+                                    <td> 500 </td>
+                                    <td> 100 </td>
+                                    <td>  50 </td>
+                                    <td>  20 </td>
+                                    <td>  5  </td>
+                                    <td>  1  </td>
+
+                        </tr> 
+
+                     </table>
+            </div> 
+  </div>            
+    <script src ="index.js"> </script>
+    
+</body>
+</html>
